@@ -1,0 +1,5 @@
+observableId	observableFormula	noiseFormula
+observable1	B_catenin*1 + B_catenin_APC__axin__GSK3 + B_catenin__APC__axin__GSK3 + B_catenin_0	1
+observable2	B_catenin_TCF + TCF	1
+observable3	APC__axin__GSK3 + APC_axin_GSK3 + APC_axin + B_catenin_APC__axin__GSK3 + B_catenin__APC__axin__GSK3 + Axin	1
+observable4	Dsh_a	1

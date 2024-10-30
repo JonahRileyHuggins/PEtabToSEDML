@@ -1,0 +1,6 @@
+plotId	plotName	plotTypeSimulation	datasetId	xValues	yValues	xLabel	xScale	yLabel	yScale	Color	legendEntry
+plot1	ppERK levels	LinePlot	average_sim	time	simulation observable1	Time (hours)	linear	B-Catenin Sim	linear	blue	simulation
+plot1	MAPK 1 and 3 mRNA activation	LinePlot	average_sim	time	experiment observable1	Time (hours)	linear	B-Catenin Exp	linear	red	experiment
+plot2	MAPK 1 and 3 mRNA activation	LinePlot	average_sim	time	simulation observable2	Time (hours)	linear	TCF Sim	linear	blue	simulation
+plot2	MAPK3 gene activation	LinePlot	average_sim	time	experiment observable2	Time (hours)	linear	TCF Exp	linear	red	experiment
+plot3	MAPK1 gene activation	LinePlot	average_sim	time	experiment observable3	Time (hours)	linear	Axin Sim	linear	purple	experiment

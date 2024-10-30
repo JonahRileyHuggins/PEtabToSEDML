@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "petabtosedml"
+version = "0.1.0"
+description = "Tool for converting PEtab problem files into SEDML file."
+authors = ["Jonah Riley Huggins <jonahrileyhuggins@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "Yes"
+pandas = "^2.2.3"
+phrasedml = "^1.3.0"
+lxml = "^5.3.0"
+python-libsbml = "^5.20.4"
+pyyaml = "^6.0.2"
+ipykernel = "^6.29.5"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
