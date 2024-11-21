@@ -25,9 +25,6 @@ from source.loader import file_loader
 import source.extractors as extractors
 from source.arguements import parse_args
 
-args = parse_args()
-
-
 # ------------------------------function definitions---------------------------#
 def build_simulation(conditions_df: pd.DataFrame, measurements_df: pd.DataFrame) -> str:
     """
@@ -332,4 +329,5 @@ def build_sedml_file(yaml_file: os.PathLike) -> None:
 # -----------------------------end of script------------------------------------#
 
 if __name__ == "__main__":
+    args = parse_args()
     build_sedml_file(args.yaml_path)

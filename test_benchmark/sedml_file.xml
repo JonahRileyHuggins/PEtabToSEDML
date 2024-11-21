@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:sedML xmlns:ns0="http://sed-ml.org/sed-ml/level1/version4" xmlns:ns1="http://www.w3.org/1998/Math/MathML" level="1" version="4">
+    <ns0:listOfModels>
+        <ns0:model id="model1" language="urn:sedml:language:sbml.level-2.version-4" source="test_benchmark\BIOMD0000000658_url.xml" />
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_average_sim" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="0.01" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="100" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="5" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_irreg_sim" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="1000" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="0" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="124" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_crazy_sim" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="1.92838e+08" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="2.39488e+09" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="2.39487e+08" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_sim_rand" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="4567" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="345" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="5.46456e+06" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="2.14423e+08" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="345345" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="36546" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin2" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="56" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="545645" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="234" />
+            </ns0:listOfChanges>
+        </ns0:model>
+        <ns0:model id="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin3" language="urn:sedml:language:sbml.level-2.version-4" source="model1">
+            <ns0:listOfChanges>
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Dsh_i']/@initialConcentration" newValue="456" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='TCF']/@initialConcentration" newValue="12" />
+                <ns0:changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='k_7']/@value" newValue="23452" />
+            </ns0:listOfChanges>
+        </ns0:model>
+    </ns0:listOfModels>
+    <ns0:listOfSimulations>
+        <ns0:uniformTimeCourse id="average_sim" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="irreg_sim" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="crazy_sim" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="sim_rand" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="what_am_I_doin" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="what_am_I_doin2" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+        <ns0:uniformTimeCourse id="what_am_I_doin3" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfSteps="3">
+            <ns0:algorithm name="CVODE" kisaoID="KISAO:0000019" />
+        </ns0:uniformTimeCourse>
+    </ns0:listOfSimulations>
+    <ns0:listOfTasks>
+        <ns0:task id="task1" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_average_sim" simulationReference="average_sim" />
+        <ns0:task id="task2" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_irreg_sim" simulationReference="irreg_sim" />
+        <ns0:task id="task3" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_crazy_sim" simulationReference="crazy_sim" />
+        <ns0:task id="task4" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_sim_rand" simulationReference="sim_rand" />
+        <ns0:task id="task5" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin" simulationReference="what_am_I_doin" />
+        <ns0:task id="task6" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin2" simulationReference="what_am_I_doin2" />
+        <ns0:task id="task7" modelReference="Lee2003___Roles_of_APC_and_Axin_in_Wnt_Pathway__without_regulatory_loop_what_am_I_doin3" simulationReference="what_am_I_doin3" />
+    </ns0:listOfTasks>
+    <ns0:DataGenerator id="observable1" name="observable1_gen">
+        <ns0:variable id="observable1_var" taskReference="task1" symbol="urn:sedml:symbol:time" />
+        <ns1:math>
+            <ns1:ci>B_catenin*1 + B_catenin_APC__axin__GSK3 + B_catenin__APC__axin__GSK3 + B_catenin_0</ns1:ci>
+        </ns1:math>
+    </ns0:DataGenerator>
+    <ns0:DataGenerator id="observable2" name="observable2_gen">
+        <ns0:variable id="observable2_var" taskReference="task1" symbol="urn:sedml:symbol:time" />
+        <ns1:math>
+            <ns1:ci>B_catenin_TCF + TCF</ns1:ci>
+        </ns1:math>
+    </ns0:DataGenerator>
+    <ns0:DataGenerator id="observable3" name="observable3_gen">
+        <ns0:variable id="observable3_var" taskReference="task1" symbol="urn:sedml:symbol:time" />
+        <ns1:math>
+            <ns1:ci>APC__axin__GSK3 + APC_axin_GSK3 + APC_axin + B_catenin_APC__axin__GSK3 + B_catenin__APC__axin__GSK3 + Axin</ns1:ci>
+        </ns1:math>
+    </ns0:DataGenerator>
+    <ns0:DataGenerator id="observable4" name="observable4_gen">
+        <ns0:variable id="observable4_var" taskReference="task1" symbol="urn:sedml:symbol:time" />
+        <ns1:math>
+            <ns1:ci>Dsh_a</ns1:ci>
+        </ns1:math>
+    </ns0:DataGenerator>
+    <dataDescription id="DataDescription1" source="c:\Users\jrhuggi\Desktop\projects\PEtabToSEDML\measurements.tsv" name="Measurement Data" format="urn:sedml:format:csv">
+        <dataSource id="observable1_average_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="average_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_average_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="average_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_average_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="average_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_average_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="average_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_irreg_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="irreg_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_irreg_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="irreg_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_irreg_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="irreg_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_irreg_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="irreg_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_crazy_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="crazy_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_crazy_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="crazy_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_crazy_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="crazy_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_crazy_sim">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="crazy_sim" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_sim_rand">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="sim_rand" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_sim_rand">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="sim_rand" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_sim_rand">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="sim_rand" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_sim_rand">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="sim_rand" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_what_am_I_doin">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="what_am_I_doin" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_what_am_I_doin">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="what_am_I_doin" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_what_am_I_doin">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="what_am_I_doin" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_what_am_I_doin">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="what_am_I_doin" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_what_am_I_doin2">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="what_am_I_doin2" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_what_am_I_doin2">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="what_am_I_doin2" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_what_am_I_doin2">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="what_am_I_doin2" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_what_am_I_doin2">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="what_am_I_doin2" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable1_what_am_I_doin3">
+            <listOfSlices>
+                <slice reference="observableId" value="observable1" />
+                <slice reference="simulationConditionId" value="what_am_I_doin3" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable2_what_am_I_doin3">
+            <listOfSlices>
+                <slice reference="observableId" value="observable2" />
+                <slice reference="simulationConditionId" value="what_am_I_doin3" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable3_what_am_I_doin3">
+            <listOfSlices>
+                <slice reference="observableId" value="observable3" />
+                <slice reference="simulationConditionId" value="what_am_I_doin3" />
+            </listOfSlices>
+        </dataSource>
+        <dataSource id="observable4_what_am_I_doin3">
+            <listOfSlices>
+                <slice reference="observableId" value="observable4" />
+                <slice reference="simulationConditionId" value="what_am_I_doin3" />
+            </listOfSlices>
+        </dataSource>
+    </dataDescription>
+    <Output>
+        <Plot2D id="plot1" name="ppERK levels">
+            <Curve id="average_sim" name="simulation" xDataReference="time" yDataReference="simulation observable1" />
+            <Curve id="average_sim" name="experiment" xDataReference="time" yDataReference="experiment observable1" />
+        </Plot2D>
+        <Plot2D id="plot2" name="MAPK 1 and 3 mRNA activation">
+            <Curve id="average_sim" name="simulation" xDataReference="time" yDataReference="simulation observable2" />
+            <Curve id="average_sim" name="experiment" xDataReference="time" yDataReference="experiment observable2" />
+        </Plot2D>
+        <Plot2D id="plot3" name="MAPK1 gene activation">
+            <Curve id="average_sim" name="experiment" xDataReference="time" yDataReference="experiment observable3" />
+        </Plot2D>
+    </Output>
+</ns0:sedML>
