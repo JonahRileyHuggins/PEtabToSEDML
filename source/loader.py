@@ -425,7 +425,7 @@ class PEtabFileLoader:
             "observables": self.observable_df,
         }
 
-        if "visualization_files" in self.__dict__:
+        if "visualization_df" in self.__dict__:
             parent_obj["visualization"] = self.visualization_df
 
         return parent_obj

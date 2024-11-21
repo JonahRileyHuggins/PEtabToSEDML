@@ -21,7 +21,7 @@ import pandas as pd
 from lxml import etree
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from source.loader import file_loader
+from source.loader import PEtabFileLoader
 import source.extractors as extractors
 from source.arguements import parse_args
 
@@ -288,7 +288,7 @@ def build_sedml_file(yaml_file: os.PathLike) -> None:
     Returns
     - None
     """
-    petab_files = file_loader(yaml_file)
+    petab_files = PEtabFileLoader(yaml_file).file_loader()
 
     phrasedml_str = f"""model1 = model "{petab_files['sbml file']}"\n"""
 
