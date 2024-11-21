@@ -1,0 +1,19 @@
+# Python files
+*.py[cod]
+__pycache__/
+
+# Add here if sedml results don't need to be uploaded
+#*.sedml
+#*.xml
+
+old*
+*.ipynb_check*
+.nextflow*
+vers
+pod.yaml
+dock.sh
+z
+*_pycache_*
+cleanH
+work/
+TODO*
